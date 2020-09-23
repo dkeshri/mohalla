@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url( './assets/img/bg.jpg');
+  background: url('./assets/img/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 a{
@@ -16,7 +19,7 @@ li{
 nav{
   position: static;
   top:0;
-  background-color: rgb(252, 218, 198);
+  background-color: rgb(231, 173, 139);
 }
 .container{
   max-width: 65rem;
@@ -71,7 +74,7 @@ nav{
   transition: .5s;
 }
 .nav-link:hover > a{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .logout{
   flex:1;
@@ -92,7 +95,7 @@ nav{
 }
 .btn.solid, .btn.transparent:hover{
   background-color: white;
-  color:  rgb(252, 218, 198);
+  color:  rgb(231, 173, 139);
 }
 .btn.transparent, .btn.solid:hover{
   background-color: transparent;
@@ -104,7 +107,10 @@ nav{
   top:100%;
   left: 0;
   width: 10rem;
-  background-color: #fff;
+  transform: translateY(10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: .5s;
 }
 .dropdown ul{
   position: relative;
@@ -115,7 +121,7 @@ nav{
 .dropdown-link > a{
   display: flex;
   background-color: #fff;
-  color: rgb(252, 218, 198);
+  color:rgb(231, 173, 139);
   padding: .5rem 1rem;
   font-size: .9rem;
   align-items: center;
@@ -123,7 +129,7 @@ nav{
   transition: .3s;
 }
 .dropdown-link:hover > a{
-  background-color: rgb(250, 209, 185);
+  background-color: rgb(231, 165, 127);
   color: #fff;
 }
 .dropdown-link i{
@@ -141,5 +147,25 @@ nav{
   transition: .3s;
 }
 .dropdown-link:first-child:hover ~ .arrow{
-  background-color: rgb(250, 209, 185);;
+  background-color:rgb(231, 165, 127);
+}
+.dropdown-link{
+  position: relative;
+}
+.dropdown.second{
+  top: 0;
+  left: 100%;
+  padding-left: .8rem;
+  cursor: pointer;
+  transform: translateX(10px);
+}
+.dropdown.second .arrow{
+  top: 10px;
+  left: -5.5px;
+}
+.nav-link:hover > .dropdown,
+.dropdown-link:hover> .dropdown{
+  transform: translate(0,0);
+  opacity: 1;
+  pointer-events: auto;
 }

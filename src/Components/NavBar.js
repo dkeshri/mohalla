@@ -11,21 +11,138 @@ function NavBar() {
                     <div className="nav-links">
                         <ul>
                             <li className="nav-link">
-                                <a href="#">Home<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <a href="#">Home<i className="fa fa-caret-down" aria-hidden="true"></i></a>
                                 <div className="dropdown">
                                     <ul>
                                         <li className="dropdown-link"><a href="#">Link1</a></li>
                                         <li className="dropdown-link"><a href="#">Link2</a></li>
-                                        <li className="dropdown-link"><a href="#">Link3<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                                        <li className="dropdown-link"><a href="#">Link3<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <div className="dropdown second">
+                                                <ul>
+                                                    <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                    <li className="dropdown-link"><a href="#">More<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                                        <div className="dropdown second">
+                                                            <ul>
+                                                                <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                                <div className="arrow"></div>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <div className="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
                                         <li className="dropdown-link"><a href="#">Link4</a></li>
                                         <li className="dropdown-link"><a href="#">Link5</a></li>
                                         <div className="arrow"></div>
                                     </ul>
                                 </div>
                             </li>
-                            <li className="nav-link"><a href="#">Menu<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
-                            <li className="nav-link"><a href="#">Service<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
-                            <li className="nav-link"><a href="#">About<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                            <li className="nav-link"><a href="#">Menu<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <div className="dropdown">
+                                    <ul>
+                                        <li className="dropdown-link"><a href="#">Link1</a></li>
+                                        <li className="dropdown-link"><a href="#">Link2</a></li>
+                                        <li className="dropdown-link"><a href="#">Link3<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <div className="dropdown second">
+                                                <ul>
+                                                    <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                    <li className="dropdown-link"><a href="#">More<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                                        <div className="dropdown second">
+                                                            <ul>
+                                                                <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                                <div className="arrow"></div>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <div className="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className="dropdown-link"><a href="#">Link4</a></li>
+                                        <li className="dropdown-link"><a href="#">Link5</a></li>
+                                        <div className="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li className="nav-link"><a href="#">Service<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <div className="dropdown">
+                                    <ul>
+                                        <li className="dropdown-link"><a href="#">Link1</a></li>
+                                        <li className="dropdown-link"><a href="#">Link2</a></li>
+                                        <li className="dropdown-link"><a href="#">Link3<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <div className="dropdown second">
+                                                <ul>
+                                                    <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                    <li className="dropdown-link"><a href="#">More<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                                        <div className="dropdown second">
+                                                            <ul>
+                                                                <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                                <div className="arrow"></div>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <div className="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className="dropdown-link"><a href="#">Link4</a></li>
+                                        <li className="dropdown-link"><a href="#">Link5</a></li>
+                                        <div className="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li className="nav-link"><a href="#">About<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                <div className="dropdown">
+                                    <ul>
+                                        <li className="dropdown-link"><a href="#">Link1</a></li>
+                                        <li className="dropdown-link"><a href="#">Link2</a></li>
+                                        <li className="dropdown-link"><a href="#">Link3<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <div className="dropdown second">
+                                                <ul>
+                                                    <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                    <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                    <li className="dropdown-link"><a href="#">More<i className="fa fa-caret-down" aria-hidden="true"></i></a>
+                                                        <div className="dropdown second">
+                                                            <ul>
+                                                                <li className="dropdown-link"><a href="#">Link1</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link2</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link3</a></li>
+                                                                <li className="dropdown-link"><a href="#">Link4</a></li>
+                                                                <div className="arrow"></div>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <div className="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className="dropdown-link"><a href="#">Link4</a></li>
+                                        <li className="dropdown-link"><a href="#">Link5</a></li>
+                                        <div className="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div className="logout">
