@@ -12,10 +12,11 @@ li{
 section {
     width: 100%;
     padding: 0 7%;
-    display: table;
+    display: flex;
     margin: 0;
-    max-width: none;
     background-color: #4a4e58;
     height: calc(100vh - 3rem);
     color: white;
+    justify-content: center;
+    align-items: center;
 }
