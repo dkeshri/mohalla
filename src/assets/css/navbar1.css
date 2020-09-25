@@ -6,7 +6,19 @@ nav{
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 0 3%;
+    padding: 0 10%;
+}
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+.line{
+  width: 2rem;
+  height: 4px;
+  background-color: white;
+  margin: .25rem 0;
+  border-radius: 3px;
+  
 }
 .logo>span{
     font-weight: 300;
@@ -21,9 +33,12 @@ nav{
     align-items: center;
     list-style: none;
   }
+  .nav-links{
+    margin-right: 4rem;
+  }
 .nav-link > a{
     color: white;
-    padding: 0 .3rem;
+    padding: 0 .8rem;
     letter-spacing: 1px;
     font-size: .95rem;
     display: flex;
@@ -64,7 +79,7 @@ nav{
 .btn.solid,
 .btn.transparent:hover {
     background-color: white;
-    color: rgb(231, 173, 139);
+    color: #373B44; /*dropdown background same as link text color*/
 }
 
 .btn.transparent,
@@ -93,15 +108,15 @@ nav{
   .dropdown-link > a{
     display: flex;
     background-color: #fff;
-    color:rgb(231, 173, 139);
+    color:#373B44; /*dropdown link text color*/
     padding: .5rem 1rem;
-    font-size: .9rem;
+    font-size: .95rem;
     align-items: center;
     justify-content: space-between;
     transition: .3s;
   }
   .dropdown-link:hover > a{
-    background-color: rgb(231, 165, 127);
+    background-color:#373B44; /*dropdown background same as link text color*/
     color: #fff;
   }
   .dropdown-link i{
@@ -119,7 +134,7 @@ nav{
     transition: .3s;
   }
   .dropdown-link:first-child:hover ~ .arrow{
-    background-color:rgb(231, 165, 127);
+    background-color:#353a46; /*dropdown background same as link text color*/
   }
   .dropdown-link{
     position: relative;
@@ -140,4 +155,48 @@ nav{
     transform: translate(0,0);
     opacity: 1;
     pointer-events: auto;
+  }
+
+
+
+
+  /*    Fro small media*/
+  @media screen and (max-width: 1200px){
+    .nav-links{
+      margin-right: 2rem;
+      transition: all .3s ease-in-out;
+    }
+  }
+  @media screen and (max-width: 1000px){
+    .nav-links{
+      margin-right: 1rem;
+      transition: all .3s ease-in-out;
+    }
+  }
+  @media screen and (max-width: 900px){
+    .nav-links{
+      margin-right: 0rem;
+      transition: all .3s ease-in-out;
+    }
+    
+    nav{
+      padding: 0 3%;
+      transition: all .3s ease-in-out;
+    }
+  }
+  /* here display the hamburger*/
+  @media screen and (max-width: 768px){
+    nav{
+      padding: 0 10%;
+      transition: all .3s ease-in-out;
+    }
+    .nav-btn{
+      display: none;
+    }
+    .hamburger{
+      display: block;
+    }
+    .hamburger:hover> .line{
+      transform: scale(1.1);
+    }
   }

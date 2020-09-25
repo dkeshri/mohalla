@@ -17,4 +17,5 @@ section {
     max-width: none;
     background-color: #4a4e58;
     height: calc(100vh - 3rem);
+    color: white;
 }
