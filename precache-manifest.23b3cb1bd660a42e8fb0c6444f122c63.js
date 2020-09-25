@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e52a8badd6331c7ee323c3b66fb38636",
+    "revision": "8001cf9b9430713af0cbf40473337dd1",
     "url": "/mohalla/index.html"
   },
   {
-    "revision": "9c5882c733caa534d1d1",
-    "url": "/mohalla/static/css/main.c74ed4af.chunk.css"
+    "revision": "010ff500e6caa47df289",
+    "url": "/mohalla/static/css/main.34342a6d.chunk.css"
   },
   {
     "revision": "5a4b56d458477af6e3fc",
@@ -16,15 +16,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mohalla/static/js/2.73d0341a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c5882c733caa534d1d1",
-    "url": "/mohalla/static/js/main.53888c86.chunk.js"
+    "revision": "010ff500e6caa47df289",
+    "url": "/mohalla/static/js/main.f6420c4f.chunk.js"
   },
   {
     "revision": "80b5099b03246ddc153a",
     "url": "/mohalla/static/js/runtime-main.6a2fae20.js"
-  },
-  {
-    "revision": "9424f2f835646842678cd4b8e34cd23e",
-    "url": "/mohalla/static/media/bg.9424f2f8.jpg"
   }
 ]);
