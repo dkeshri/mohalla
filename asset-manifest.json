@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mohalla/static/css/main.34342a6d.chunk.css",
-    "main.js": "/mohalla/static/js/main.f6420c4f.chunk.js",
-    "main.js.map": "/mohalla/static/js/main.f6420c4f.chunk.js.map",
+    "main.css": "/mohalla/static/css/main.fccc8766.chunk.css",
+    "main.js": "/mohalla/static/js/main.05547153.chunk.js",
+    "main.js.map": "/mohalla/static/js/main.05547153.chunk.js.map",
     "runtime-main.js": "/mohalla/static/js/runtime-main.6a2fae20.js",
     "runtime-main.js.map": "/mohalla/static/js/runtime-main.6a2fae20.js.map",
     "static/js/2.73d0341a.chunk.js": "/mohalla/static/js/2.73d0341a.chunk.js",
     "static/js/2.73d0341a.chunk.js.map": "/mohalla/static/js/2.73d0341a.chunk.js.map",
     "index.html": "/mohalla/index.html",
-    "precache-manifest.23b3cb1bd660a42e8fb0c6444f122c63.js": "/mohalla/precache-manifest.23b3cb1bd660a42e8fb0c6444f122c63.js",
+    "precache-manifest.e87f49593659438e84cda45190209860.js": "/mohalla/precache-manifest.e87f49593659438e84cda45190209860.js",
     "service-worker.js": "/mohalla/service-worker.js",
-    "static/css/main.34342a6d.chunk.css.map": "/mohalla/static/css/main.34342a6d.chunk.css.map",
+    "static/css/main.fccc8766.chunk.css.map": "/mohalla/static/css/main.fccc8766.chunk.css.map",
     "static/js/2.73d0341a.chunk.js.LICENSE.txt": "/mohalla/static/js/2.73d0341a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6a2fae20.js",
     "static/js/2.73d0341a.chunk.js",
-    "static/css/main.34342a6d.chunk.css",
-    "static/js/main.f6420c4f.chunk.js"
+    "static/css/main.fccc8766.chunk.css",
+    "static/js/main.05547153.chunk.js"
   ]
 }
