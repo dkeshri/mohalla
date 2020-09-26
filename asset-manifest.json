@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/mohalla/static/css/main.fccc8766.chunk.css",
-    "main.js": "/mohalla/static/js/main.05547153.chunk.js",
-    "main.js.map": "/mohalla/static/js/main.05547153.chunk.js.map",
+    "main.css": "/mohalla/static/css/main.6e1b3f9e.chunk.css",
+    "main.js": "/mohalla/static/js/main.63dfef35.chunk.js",
+    "main.js.map": "/mohalla/static/js/main.63dfef35.chunk.js.map",
     "runtime-main.js": "/mohalla/static/js/runtime-main.6a2fae20.js",
     "runtime-main.js.map": "/mohalla/static/js/runtime-main.6a2fae20.js.map",
     "static/js/2.73d0341a.chunk.js": "/mohalla/static/js/2.73d0341a.chunk.js",
     "static/js/2.73d0341a.chunk.js.map": "/mohalla/static/js/2.73d0341a.chunk.js.map",
     "index.html": "/mohalla/index.html",
-    "precache-manifest.e87f49593659438e84cda45190209860.js": "/mohalla/precache-manifest.e87f49593659438e84cda45190209860.js",
+    "precache-manifest.39aee354050e1b3b53fa8f5934b7008f.js": "/mohalla/precache-manifest.39aee354050e1b3b53fa8f5934b7008f.js",
     "service-worker.js": "/mohalla/service-worker.js",
-    "static/css/main.fccc8766.chunk.css.map": "/mohalla/static/css/main.fccc8766.chunk.css.map",
-    "static/js/2.73d0341a.chunk.js.LICENSE.txt": "/mohalla/static/js/2.73d0341a.chunk.js.LICENSE.txt"
+    "static/css/main.6e1b3f9e.chunk.css.map": "/mohalla/static/css/main.6e1b3f9e.chunk.css.map",
+    "static/js/2.73d0341a.chunk.js.LICENSE.txt": "/mohalla/static/js/2.73d0341a.chunk.js.LICENSE.txt",
+    "static/media/navbar.css": "/mohalla/static/media/bg.9424f2f8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6a2fae20.js",
     "static/js/2.73d0341a.chunk.js",
-    "static/css/main.fccc8766.chunk.css",
-    "static/js/main.05547153.chunk.js"
+    "static/css/main.6e1b3f9e.chunk.css",
+    "static/js/main.63dfef35.chunk.js"
   ]
 }
